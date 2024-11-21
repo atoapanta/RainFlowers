@@ -14,7 +14,13 @@ const WelcomeTitle = () => {
           <h4 className="display-5">Mi Niña💕</h4>
         </div>
         <p className="lead">Follow Me</p>
-        <p className="lead">@AmbatoTech</p>
+        <a
+          href="https://www.tiktok.com/@ambatotech"
+          style={{ textDecoration: "none" }}
+          target="_blank"
+        >
+          <p className="lead btn btn-outline-light m-0">@AmbatoTech</p>
+        </a>
       </div>
     </div>
   );
